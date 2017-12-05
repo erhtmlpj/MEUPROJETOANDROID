@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.projeto.aparicio.oneforall.Tela_Entrar">
+
+    <RelativeLayout
+        android:layout_width="384dp"
+        android:layout_height="513dp"
+        android:background="@color/colorPrimaryDark"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="-1dp">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            app:srcCompat="@drawable/logo"
+            android:layout_marginTop="28dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/editText3"
+            android:layout_alignLeft="@+id/editText3"
+            android:layout_alignRight="@+id/editText3"
+            android:layout_alignStart="@+id/editText3"
+            android:layout_below="@+id/editText3"
+            android:backgroundTint="@android:color/white"
+            android:ems="10"
+            android:hint="Senha"
+            android:textColorHint="#ffffff"
+            android:inputType="textPersonName"
+            android:textAllCaps="false"
+            android:textColor="@android:color/darker_gray" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/editText2"
+            android:layout_alignLeft="@+id/editText2"
+            android:layout_alignRight="@+id/editText2"
+            android:layout_alignStart="@+id/editText2"
+            android:textColorHint="#ffffff"
+            android:layout_below="@+id/editText2"
+            android:backgroundTint="@android:color/white"
+            android:ems="10"
+            android:hint="Ipv4 da rede"
+            android:inputType="textPersonName"
+            android:textAllCaps="false"
+            android:textColor="@android:color/darker_gray" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/imageView3"
+            android:layout_alignStart="@+id/imageView3"
+            android:layout_centerVertical="true"
+            android:backgroundTint="@android:color/white"
+            android:textColorHint="#ffffff"
+            android:ems="10"
+            android:hint="Nome da rede"
+            android:inputType="textPersonName"
+            android:textColor="@android:color/darker_gray" />
+
+        <Button
+            android:id="@+id/button21"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/button11"
+            android:layout_alignLeft="@+id/editText"
+            android:layout_alignStart="@+id/editText"
+            android:text="Entrar"
+            android:layout_alignRight="@+id/editText"
+            android:layout_alignEnd="@+id/editText" />
+
+        <Button
+            android:id="@+id/button11"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/textView8"
+            android:layout_alignBottom="@+id/textView8"
+            android:layout_toEndOf="@+id/textView8"
+            android:layout_toRightOf="@+id/textView8"
+            android:text="Manual"
+            android:textColor="@android:color/background_light" />
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="31dp"
+            android:text="Quer saber como funciona?"
+            android:textColor="@android:color/darker_gray"
+            android:layout_marginLeft="21dp"
+            android:layout_marginStart="21dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignLeft="@+id/button21"
+            android:layout_alignStart="@+id/button21" />
+
+    </RelativeLayout>
+
+</android.support.constraint.ConstraintLayout>

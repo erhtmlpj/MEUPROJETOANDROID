@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item android:title="Login">
+            <menu>
+                <item
+                    android:id="@+id/entrar_conta"
+                    android:icon="@drawable/ic_arrow_forward_black_24dp"
+                    android:title="Entrar em conta" />
+                <item
+                    android:id="@+id/entrar_rede"
+                    android:icon="@drawable/ic_arrow_forward_black_24dp"
+                    android:title="Entrar em rede" />
+                <item
+                    android:id="@+id/criar_rede"
+                    android:icon="@drawable/ic_arrow_forward_black_24dp"
+                    android:title="Criar uma rede" />
+            </menu>
+        </item>
+            <item android:title="Dados">
+                <menu>
+                    <item
+                        android:id="@+id/minha_conta"
+                        android:icon="@drawable/ic_person_black_24dp"
+                        android:title="Minha Conta" />
+                    <item
+                        android:id="@+id/minha_rede"
+                        android:icon="@drawable/ic_settings_ethernet_black_24dp"
+                        android:title="Rede Atual" />
+                    <item
+                        android:id="@+id/minhas_redes"
+                        android:icon="@drawable/ic_settings_ethernet_black_24dp"
+                        android:title="Minhas Redes" />
+                </menu>
+        </item>
+    </group>
+
+    <item android:title="Informações">
+        <menu>
+            <item
+                android:id="@+id/manual"
+                android:icon="@drawable/ic_library_books_black_24dp"
+                android:title="Manual" />
+            <item
+                android:id="@+id/config"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Configurações" />
+            <item
+                android:id="@+id/sair"
+                android:icon="@drawable/ic_exit_to_app_black_24dp"
+                android:title="Sair" />
+        </menu>
+    </item>
+
+</menu>
